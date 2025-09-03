@@ -8,3 +8,4 @@ if anyone of the metioned prompt owners recogizned their prompt and does not wan
 FOR cot, its <think>, </think> im still working on it!
 
 P.S= pair with speed _control and narration nudge. createors unkown-i just cant find them. lemme tho if anyone does know who they are! and if these two help with narration whatsoever. the two listed are LOREBOOKS to push narration. *updated on git, check it out! speed control is *optional* but id recmond narration nudge tho.
+supposed to be on scnerio POV and recmmond to try it but it may still speak for u (which is one of things being worked on) but def should give it a whirl!!! >:3 
