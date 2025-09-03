@@ -4,3 +4,4 @@ the main goal of this was mostly for a interactive yet detailed novel. im still 
 if anyone of the metioned prompt owners recogizned their prompt and does not want it to be included, lmk. ill remove it immedtlatly!  i love the work and passion u all do and im sure many others!
 
 (cant belieave im posting when geminines been down--its been hard TWT espically with gemini acting up) so i hope you can aoppreiacte this creation/ me and my friendmade together. we worked on thsi for about a month and are exciteted to here yall all optionions!
+FOR cot, its <think>, </think> im still working on it!
