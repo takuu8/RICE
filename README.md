@@ -1,3 +1,5 @@
+![d970c383-cb78-45f2-92d2-dffb8f895c5b](https://github.com/user-attachments/assets/b5d47f97-8365-439d-9d80-4adbba878691)
+
 DISCLAIMER: a newbie work! annd novel-like preset.  (unless u tweak to ur taste!) annndd still in the works. i just need some testers because what MY settings and stuff may fluctuate with the acutual preset capablilites. but with more, and more diversty, i may get it to a decent standing. its not perfect but were working on it! :>)!! stay tuned for moreee
 
 hello! im a new preset creator for ST. this prompt was based off some amazing creators u already know!!.
