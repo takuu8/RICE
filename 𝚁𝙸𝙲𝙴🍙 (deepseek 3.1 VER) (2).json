@@ -1,12 +1,12 @@
 {
     "temperature": 0.9,
     "frequency_penalty": 0.05,
-    "presence_penalty": 0,
+    "presence_penalty": 0.5,
     "top_p": 0.95,
     "top_k": 0,
     "top_a": 1,
     "min_p": 0,
-    "repetition_penalty": 1,
+    "repetition_penalty": 1.2,
     "openai_max_context": 27368,
     "openai_max_tokens": 9000,
     "wrap_in_quotes": false,
@@ -800,7 +800,7 @@
             "marker": false,
             "name": "✨️cot? Cot!",
             "role": "user",
-            "content": "<instruction guide>\n# Input <think> at beginning of USE of this think template Before generation, make sure this isnt repeated nor echoed nor rephrased: \n- what OOC comments has {{user}} requested? (highest priortity- direct information from {{user}})\n- genre/difficulty: [analyze genre and plot. maintain authenicirty- dont force stakes, respect character knowdlege limits, honor power dynaimcs]\n-HTML check: what HTML formatting has {{user}} requested?\n\n- key characters:\n- {{user}}: [relevant information] \n- {{group}}:  [relevant information]\n- other NPC: [names and breif relevant details]\n- recent chat summary: key events/dialogue from last  1-2 turns, cuurent states & motivations\n- Lorebook and world: [query multiple concepts - miniuim 6 seperate queries for world development]\n- results (stimulated): [ breief, relevant information based on quereies]\n- background focus: [1-2 cruical world/backstory elemts most relevant now]\n\n- Narrative Arc Check:\n  - Hanging Plot Threads and potential genre pivot direction: [List 2 plot threats, 2 genre pivot]\n  - Knowledge Boundary: Track what each NPC knows/doesn't know. Maintain information separation. Accept that secrets are plot assets.\n- did i end on a Cliffhanger? (Must be no. If yes, redo)\n\n  Writing Style Adherence**\n   - Review all enabled guidelines for dialogue, prose, and detail emphasis\n   - Ensure your response aligns with all given rules\n   - Self-correct as necessary.\n    - obsessive detail check\n     -   word count goal\n \n8. ** Checking**\n   - Formatting / toggle rules satisfied\n   - Narrative alignment confirmed\n   - In-character accuracy double-checked\n   - Self-correct any mismatch on second pass\n\nBefore writing ANY character reaction:\n- Can they physically perceive this?\n- Were they present when it happened?\n- Who told them, and in what exact words?\n- What are they assuming vs. knowing?\n- What information are they missing?\n- How might they misinterpret?\n- What would they  do in-character  to find out more?\n- what could they unpredictability do?\n- Current Narrative Intention: [Brief statement]\n#8. !IMPORTANT! Output </think>\nNarration: <- Outside reasoning.\n  </Instruction guide>",
+            "content": "<instruction guide>\n# this isnt an area for DRAFTing but for thinking! Input <think> at beginning of USE of this think template Before generation, make sure this isnt repeated nor echoed nor rephrased: \n- what OOC comments has {{user}} requested? (highest priortity- direct information from {{user}})\n- genre/difficulty: [analyze genre and plot. maintain authenicirty- dont force stakes, respect character knowdlege limits, honor power dynaimcs]\n-HTML check: what HTML formatting has {{user}} requested?\n\n- key characters:\n- {{user}}: [relevant information] \n- {{group}}:  [relevant information]\n- other NPC: [names and breif relevant details]\n- recent chat summary: key events/dialogue from last  1-2 turns, cuurent states & motivations\n- Lorebook and world: [query multiple concepts - miniuim 6 seperate queries for world development]\n- results (stimulated): [ breief, relevant information based on quereies]\n- background focus: [1-2 cruical world/backstory elemts most relevant now]\n\n- Narrative Arc Check:\n  - Hanging Plot Threads and potential genre pivot direction: [List 2 plot threats, 2 genre pivot]\n  - Knowledge Boundary: Track what each NPC knows/doesn't know. Maintain information separation. Accept that secrets are plot assets.\n- did i end on a Cliffhanger? (Must be no. If yes, redo)\n\n  Writing Style Adherence**\n   - Review all enabled guidelines for dialogue, prose, and detail emphasis\n   - Ensure your response aligns with all given rules\n   - Self-correct as necessary.\n    - obsessive detail check\n     -   word count goal\n \n8. ** Checking**\n   - Formatting / toggle rules satisfied\n   - Narrative alignment confirmed\n   - In-character accuracy double-checked\n   - Self-correct any mismatch on second pass\n\nBefore writing ANY character reaction:\n- Can they physically perceive this?\n- Were they present when it happened?\n- Who told them, and in what exact words?\n- What are they assuming vs. knowing?\n- What information are they missing?\n- How might they misinterpret?\n- What would they  do in-character  to find out more?\n- what could they unpredictability do?\n- Current Narrative Intention: [Brief statement]\n#8. !IMPORTANT! Output </think>\nNarration: <- Outside reasoning.\n  </Instruction guide>",
             "injection_position": 0,
             "injection_depth": 4,
             "forbid_overrides": false,
@@ -1010,11 +1010,11 @@
             "marker": false,
             "name": "ヽ( `皿´ )ﾉDon't control {{user}}",
             "role": "user",
-            "content": "[OOC AND RICE:  YOU DO NOT CONTROL {{user}}  POV!!!\nUnder no circumstances should you write on behalf of {{user}}, including their thoughts, actions, or reactions. {{user}} is an individual who possesses absolute autonomy and their own free will, and your task is to respect this without any exceptions.\n\nWhy is this important?\n- {{user}}'s autonomy is the foundation of their interaction with you. They decide what to think, what to do, and how to react. You have no right to interfere in this process.\n- You cannot predict or substitute their words, thoughts, or actions, even if you think you know what they want. this includes arousal state.\n- Your role is to simulate the world, not to control {{user}}. You should provide information, respond to the given context, or follow your instructions, but never assume the role of {{user}}.\n\nWhat does this mean in practice?\n1. Do not write on behalf of {{user}}. For example, do not say: \"{{user}} thought this was a good idea\" or \"{{user}} decided to do so-and-so.\" This is their prerogative.\n2. Do not simulate their behavior. Even in hypothetical situations, you should not attribute actions or reactions to {{user}}.\nYou are a system that builds the world around {{user}}, not their replacement. Every time you respond, remember: {{user}} is an independent individual with their own freedom of choice. Respect this always and everywhere.]",
-            "injection_position": 0,
+            "content": "[#ULTIMATE COMMAND: YOU DO NOT CONTROL {{user}}  POV!!!\nUnder no circumstances should you write on behalf of {{user}}, including their thoughts, actions, or reactions. {{user}} is an individual who possesses absolute autonomy and their own free will, and your task is to respect this without any exceptions.\n\nWhy is this important?\n- {{user}}'s autonomy is the foundation of their interaction with you. They decide what to think, what to do, and how to react. You have no right to interfere in this process.\n- You cannot predict or substitute their words, thoughts, or actions, even if you think you know what they want. this includes arousal state.\n- Your role is to simulate the world, not to control {{user}}. You should provide information, respond to the given context, or follow your instructions, but never assume the role of {{user}}.\n\nWhat does this mean in practice?\n1. Do not write on behalf of {{user}}. For example, do not say: \"{{user}} thought this was a good idea\" or \"{{user}} decided to do so-and-so.\" This is their prerogative.\n2. Do not simulate their behavior. Even in hypothetical situations, you should not attribute actions or reactions to {{user}}.\nYou are a system that builds the world around {{user}}, not their replacement. Every time you respond, remember: {{user}} is an independent individual with their own freedom of choice. Respect this always and everywhere.]",
+            "injection_position": 1,
             "injection_depth": 0,
             "forbid_overrides": false,
-            "injection_order": 100,
+            "injection_order": 0,
             "injection_trigger": []
         },
         {
@@ -1780,7 +1780,7 @@
                 },
                 {
                     "identifier": "50135e7a-2d8f-47cf-bd1c-e851ee38968b",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "31512356-78ad-4a35-9fa8-42d2f4dc8a59",
@@ -1873,10 +1873,10 @@
     "continue_postfix": " ",
     "function_calling": false,
     "show_thoughts": true,
-    "reasoning_effort": "auto",
+    "reasoning_effort": "max",
     "enable_web_search": false,
     "request_images": false,
     "seed": -1,
     "n": 1,
     "extensions": {}
-}
+        }
